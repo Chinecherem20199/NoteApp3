@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/content_holder">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/list_note_title"
+            android:textFontWeight="400"
+            android:textColor="#cc0044"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15dp"
+            android:textSize="24sp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="2"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_date"
+        android:textColor="#193D19"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="12sp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="20dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_content"
+        android:paddingBottom="15dp"
+        android:textStyle="normal"
+        android:textFontWeight="400"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp" />
+    </LinearLayout>
+</LinearLayout>

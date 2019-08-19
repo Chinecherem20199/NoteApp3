@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- SAVE NOTE -->
+
+
+    <item android:title="@string/save_note"
+        app:showAsAction="always"
+        android:orderInCategory="5"
+        android:icon="@drawable/ic_save"
+        android:id="@+id/action_update_note"
+        android:enabled="true"/>
+
+    <!-- CANCEL THE NOTE -->
+
+
+    <item android:title="@string/cancel"
+        app:showAsAction="always"
+        android:orderInCategory="15"
+        android:icon="@drawable/ic_arrow_back"
+        android:id="@+id/action_cancel"
+        android:enabled="true"/>
+
+    <!--delete the note -->
+    <item
+        android:enabled="true"
+        android:title="@string/delete"
+
+        android:id="@+id/action_note_delete"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="20"
+        app:showAsAction="always"/>
+    <item
+        android:enabled="true"
+        android:title="Send as email"
+        android:id="@+id/action_send_email"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="20"
+        app:showAsAction="never"/>
+
+
+</menu>
